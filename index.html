@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Quản Lý Khách Hàng Quán Ăn</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>user-sđt 🍜</h1>
+    <form id="customerForm">
+      <input type="text" id="name" placeholder="Tên khách hàng" required>
+      <input type="tel" id="phone" placeholder="Số điện thoại" pattern="[0-9]{10,11}" required>
+      <button type="submit">Thêm khách</button>
+    </form>
+    <h2>Danh sách khách hàng</h2>
+    <table id="customerTable">
+      <thead>
+        <tr>
+          <th>STT</th>
+          <th>Tên</th>
+          <th>SĐT</th>
+          <th>Xoá</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Dữ liệu sẽ được thêm ở đây -->
+      </tbody>
+    </table>
+  </div>
+  <footer>
+    <p>Made by <span class="highlight">Bạn</span> | 2025</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
